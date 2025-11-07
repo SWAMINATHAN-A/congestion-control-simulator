@@ -25,32 +25,7 @@ export default function AboutPage() {
                 issues, feel free to reach out to us:
               </p>
 
-              <div className="flex flex-row items-center space-x-8 p-4">
-                <img
-                src="/images/design-mode/WhatsApp_Image_2025-11-05_at_14.48.40_twjkhe.jpg"
-                alt="Dr. A Swaminathan"
-                className="w-24 h-28 object-cover rounded-md border"
-                />
-                <div className="flex flex-col gap-2">
-                  <h4 className="font-semibold text-lg">Guide: Dr. A Swaminathan</h4>
-                  <div className="flex gap-4 mt-2">
-                    <a
-                      href="mailto:iamsuryanshmishra@gmail.com"
-                      className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-background transition-colors"
-                    >
-                      <Mail size={18} /> Email
-                    </a>
-                    <a
-                      href="https://share.google/u4AtFjLxK7WWnUAIA"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-background transition-colors"
-                    >
-                      <Github size={18} /> GitHub
-                    </a>
-                  </div>
-                </div>
-              </div>
+              
 
               <div className="flex flex-row items-center space-x-8 p-4">
                 <img
@@ -59,7 +34,7 @@ export default function AboutPage() {
                   className="w-24 h-28 object-cover rounded-md border"
                 />
                 <div className="flex flex-col gap-2">
-                  <h4 className="font-semibold text-lg">Developer1: Ankush Pratham 24BCE1937</h4>
+                  <h4 className="font-semibold text-lg">Developer 1: Ankush Pratham 24BCE1937</h4>
                   <div className="flex gap-4 mt-2">
                     <a
                       href="mailto:ankush170306@gmail.com"
@@ -86,7 +61,7 @@ export default function AboutPage() {
                   className="w-24 h-28 object-cover rounded-md border"
                 />
                 <div className="flex flex-col gap-2">
-                  <h4 className="font-semibold text-lg">Developer2: Suryansh Mishra 24BCE1908</h4>
+                  <h4 className="font-semibold text-lg">Developer 2: Suryansh Mishra 24BCE1908</h4>
                   <div className="flex gap-4 mt-2">
                     <a
                       href="mailto:iamsuryanshmishra@gmail.com"
@@ -96,6 +71,33 @@ export default function AboutPage() {
                     </a>
                     <a
                       href="https://share.google/u4AtFjLxK7WWnUAIA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-background transition-colors"
+                    >
+                      <Github size={18} /> GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-row items-center space-x-8 p-4">
+                <img
+                src="/images/design-mode/WhatsApp_Image_2025-11-05_at_14.48.40_twjkhe.jpg"
+                alt="Dr. A Swaminathan"
+                className="w-24 h-28 object-cover rounded-md border"
+                />
+                <div className="flex flex-col gap-2">
+                  <h4 className="font-semibold text-lg">Guide: Dr. A Swaminathan</h4>
+                  <div className="flex gap-4 mt-2">
+                    <a
+                      href="mailto:ankush170306@gmail.com"
+                      className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-background transition-colors"
+                    >
+                      <Mail size={18} /> Email
+                    </a>
+                    <a
+                      href="https://github.com/Ap17-dl"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-background transition-colors"

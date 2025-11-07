@@ -12,7 +12,7 @@ export default function Navigation() {
   const links = [
     { href: "/", label: "Home" },
     { href: "/simulator", label: "Simulator" },
-    { href: "/instructions", label: "Instructions" },
+    { href: "/instructions", label: "Help" },
     { href: "/algorithms", label: "Learn" },
     { href: "/about", label: "Developer" },
   ]

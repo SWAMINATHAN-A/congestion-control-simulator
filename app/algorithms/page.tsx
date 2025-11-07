@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { TrendingUp, TrendingDown, Zap } from "lucide-react"
+import VideoPlayerCard from "@/components/video-player-card"
 
 export default function AlgorithmsPage() {
   return (
@@ -7,7 +8,7 @@ export default function AlgorithmsPage() {
       {/* Header */}
       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="space-y-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-balance">TCP Congestion Control Algorithms</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-balance">TCP Congestion Control and Avoidance</h1>
           <p className="text-lg text-muted-foreground max-w-3xl">
             Deep dive into the algorithms that manage network congestion and ensure fair bandwidth sharing across the
             internet.
@@ -72,6 +73,16 @@ export default function AlgorithmsPage() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+
+          {/* Algorithm Animation */}
+          <div className="space-y-4">
+            <h2 className="text-3xl font-bold">TCP Congestion Control in Action</h2>
+            <VideoPlayerCard
+              videoId="Ycy4VWr3-24"
+              startTime={343}
+              title="TCP Congestion Control Detailed Explanation"
+            />
           </div>
 
           {/* Slow Start */}
@@ -422,6 +433,24 @@ export default function AlgorithmsPage() {
                     CUBIC (RFC 8312), BBR (Google), and others optimize for modern high-speed networks and specific use
                     cases.
                   </p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="text-3xl font-bold">Video Lectures</h2>
+
+            <Card>
+              <CardContent className="pt-6 space-y-3">
+                <div>
+                  <p className="font-semibold text-sm"><a href="https://www.youtube.com/watch?v=Ycy4VWr3-24&t=343s">TCP Congestion Control-Animated Video</a></p>
+                </div>
+                <div>
+                  <p className="font-semibold text-sm"><a href ="https://www.youtube.com/watch?v=B3ki7BGTIKM&t=159s">Congestion Control techniques in Computer Networks</a></p>
+                </div>
+                <div>
+                  <p className="font-semibold text-sm"><a href="https://www.youtube.com/watch?v=xv2m5PnX8rw&t=7s">TCP Congestion Control - Computer Networks For Developers</a></p>                 
                 </div>
               </CardContent>
             </Card>
