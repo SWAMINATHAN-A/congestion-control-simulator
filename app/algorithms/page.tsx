@@ -85,6 +85,44 @@ export default function AlgorithmsPage() {
             />
           </div>
 
+          {/* Development Process */}
+          <div className="space-y-4">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-secondary/10 rounded-lg flex items-center justify-center">
+                <svg
+                  className="text-secondary"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1" />
+                  <path d="M16 3h1a2 2 0 0 1 2 2v5a2 2 0 0 0 2 2 2 2 0 0 0-2 2v5a2 2 0 0 1-2 2h-1" />
+                </svg>
+              </div>
+              <h2 className="text-3xl font-bold">Building the Simulator</h2>
+            </div>
+
+            <Card>
+              <CardHeader>
+                <CardTitle>Development Process</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <p className="text-muted-foreground">
+                  This TCP Congestion Control Simulator was built using modern web technologies to provide an interactive and educational experience. The project leverages Next.js 13 with App Router for the framework, Tailwind CSS for styling, and Recharts for real-time data visualization. The simulation logic carefully implements TCP's congestion control algorithms to accurately demonstrate their behavior.
+                </p>
+
+                <p className="text-muted-foreground">
+                  Each component of the simulator was designed with educational clarity in mind. The interactive graph shows real-time changes in the congestion window (cwnd) and slow start threshold (ssthresh), while the event history provides detailed insights into algorithm transitions and network events. We implemented precise timing controls and state management to ensure accurate representation of TCP's behavior in various network conditions.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
           {/* Slow Start */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">

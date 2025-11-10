@@ -15,18 +15,7 @@ export default function AboutPage() {
         
         {/* Contact */}
           <Card>
-            <CardHeader>
-              <CardTitle>Contact & Feedback</CardTitle>
-              <CardDescription>Have questions or suggestions?</CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-6">
-              <p>
-                This simulator is designed to be an educational resource. If you have feedback, suggestions, or find any
-                issues, feel free to reach out to us:
-              </p>
-
-              
-
+            <CardContent className="space-y-6">                        
               <div className="flex flex-row items-center space-x-8 p-4">
                 <img
                   src="/images/design-mode/SS8_0248_f1r6px.jpg"
@@ -34,22 +23,8 @@ export default function AboutPage() {
                   className="w-24 h-28 object-cover rounded-md border"
                 />
                 <div className="flex flex-col gap-2">
-                  <h4 className="font-semibold text-lg">Developer 1: Ankush Pratham 24BCE1937</h4>
-                  <div className="flex gap-4 mt-2">
-                    <a
-                      href="mailto:ankush170306@gmail.com"
-                      className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-background transition-colors"
-                    >
-                      <Mail size={18} /> Email
-                    </a>
-                    <a
-                      href="https://github.com/Ap17-dl"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-background transition-colors"
-                    >
-                      <Github size={18} /> GitHub
-                    </a>
+                  <h4 className="font-semibold text-lg">Ankush Pratham 24BCE1937</h4>
+                  <div className="flex gap-4 mt-2">                    
                   </div>
                 </div>
               </div>
@@ -61,22 +36,8 @@ export default function AboutPage() {
                   className="w-24 h-28 object-cover rounded-md border"
                 />
                 <div className="flex flex-col gap-2">
-                  <h4 className="font-semibold text-lg">Developer 2: Suryansh Mishra 24BCE1908</h4>
+                  <h4 className="font-semibold text-lg">Suryansh Mishra 24BCE1908</h4>
                   <div className="flex gap-4 mt-2">
-                    <a
-                      href="mailto:iamsuryanshmishra@gmail.com"
-                      className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-background transition-colors"
-                    >
-                      <Mail size={18} /> Email
-                    </a>
-                    <a
-                      href="https://share.google/u4AtFjLxK7WWnUAIA"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-background transition-colors"
-                    >
-                      <Github size={18} /> GitHub
-                    </a>
                   </div>
                 </div>
               </div>
@@ -89,21 +50,7 @@ export default function AboutPage() {
                 />
                 <div className="flex flex-col gap-2">
                   <h4 className="font-semibold text-lg">Guide: Dr. A Swaminathan</h4>
-                  <div className="flex gap-4 mt-2">
-                    <a
-                      href="mailto:ankush170306@gmail.com"
-                      className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-background transition-colors"
-                    >
-                      <Mail size={18} /> Email
-                    </a>
-                    <a
-                      href="https://github.com/Ap17-dl"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-background transition-colors"
-                    >
-                      <Github size={18} /> GitHub
-                    </a>
+                  <div className="flex gap-4 mt-2">                    
                   </div>
                 </div>
               </div>
